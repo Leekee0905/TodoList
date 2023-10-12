@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TodoList</title>
+  <link rel='stylesheet' href="./style.css"/>
+  <script src="https://kit.fontawesome.com/b0ffa0f2ec.js" crossorigin="anonymous"></script>
+  
+</head>
+<body>
+  <script src="todo.js"></script>
+  <div class="wrapper">
+    <header>
+      TodoList
+    </header>
+    <div class="inputField">
+      <input type="text" id="addItem" placeholder="해야 할일!" autofocus/>
+      <button type="button" id="addBtn" onclick="addTodo()">
+        <i class="fa-solid fa-plus"></i>
+      </button>
+    </div>
+
+    <div class="todoBox">
+      <ul id="addTodo" class="todoList">
+
+      </ul>
+    </div>
+
+    <div class="footer">
+      <button type="button" id="delete" onclick="deleteList()">모두 삭제</button>
+    </div>
+  </div>
+</body>
+</html>
