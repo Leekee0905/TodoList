@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/b0ffa0f2ec.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="todo.js"></script>
+  </head>
+  <body>
+    <div class="todo_box">
+      <div id="header">TODOLIST</div>
+      <div class="input_box">
+        <input id="input_text" type="text" placeholder="오늘 할 일" />
+        <button type="button" id="add_btn" onclick="addTodo()">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </div>
+
+      <ul class="todo_list"></ul>
+    </div>
+  </body>
+</html>
